@@ -4,11 +4,10 @@ Aplikasi Flutter untuk menampilkan katalog film dan acara TV menggunakan API dar
 
 ## Setup API Key
 
-1. Daftar dan dapatkan API key di [The Movie Database](https://developers.themoviedb.org/3/getting-started/introduction)
-2. Buka file `lib/config.dart`
-3. Ganti `YOUR__ACCESTOKEN_HERE` dengan API key yang sudah didapat: 
+1. Daftar dan dapatkan ACCES_TOKEN di [The Movie Database](https://developers.themoviedb.org/3/getting-started/introduction)
+2. jika ingin mengganti dengan acces token sendiri, Buka file `lib/config.dart`
+3. Ganti `static const String accessToken = 'YOUR_ACTUAL_ACCESTOKEN_HERE';` dengan punya kamu sendiri: 
 
-static const String accessToken = 'YOUR_ACTUAL_ACCESTOKEN_HERE';
 
 ## Dokumentasi API
 
